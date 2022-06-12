@@ -12,7 +12,7 @@ doesKeyExist(obj1, 'name'); // => false
 
 function doesKeyExist(obj, key) {
   for (let itKey in obj) {
-    if (itkey === key) {
+    if (itKey === key) {
       return true;
     }
   }
